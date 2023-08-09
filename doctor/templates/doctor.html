@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Doctor Appointment Booking</title>
+</head>
+<body>
+    <h1>Book a Doctor Appointment</h1>
+    <form method="POST" action="/book">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date"><br><br>
+
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time"><br><br>
+        <legend>Choose your gender:</legend><br>
+        <label for="male">Male</label><br><br>
+        <input type="radio" name="gender" id="male" value="male" checked>
+        <label for="female">Female</label><br><br>
+        <input type="radio" name="gender" id="female" value="female">
+        <input type="submit" value="Book"><br><br>
+    </form>
+</body>
+</html>
